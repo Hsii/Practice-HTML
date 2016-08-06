@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/* end */
+
+#midden {
+    width: 100%;
+    min-width: 1440px;
+    height: 600px;
+    background: url(../img/search.jpg) no-repeat center;
+    position: relative;
+}
+.search{
+    width: 446px;
+    height: 52px;
+    background-color: #eeeeee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:  -27px 0 0 -296px;
+    color: #666;
+    border: 1px solid #666666;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 0 10px;
+    outline: none;
+}
+.button {
+    width: 120px;
+    height: 54px;
+    background-color: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -27px 0 0 175px;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 10px;
+    font-size: 24px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+#content{
+    width: 1500px;
+    height: 1150px;
+    margin: 30px auto;
+    text-align: center;
+}
+.category h2{
+    font-size: 45px;
+    letter-spacing:2px;
+    color: #666666;
+}
+.category p{
+    letter-spacing: 2px;
+    color: #666666;
+}
+#content figure{
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 15px 12px;
+    width: 380px;
+    text-align: left;
+    position: relative;
+}
+#content figure img{
+    vertical-align: middle;
+}
+#content figure strong{
+
+    letter-spacing: 1px;
+}
+#content figcaption{
+    padding: 7px 5px;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #777777;
+}
+.title{
+    color: #000000;
+    font-weight: 300;
+}
+.sat{
+    float: right;
+    font-size: 14px;
+    font-style: normal;
+    color: #999;
+    top: 5px;
+    right: 5px;
+    position: relative;
+}
+.price{
+    color: #f60;
+    font-size: 20px;
+}
+.type{
+    width: 90px;
+    height: 30px;
+    line-height: 25px;
+    color: #ffffff;
+    background-color: #59b200;
+    font-size: 17px;
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    left: 4px;
+}
+/* end */

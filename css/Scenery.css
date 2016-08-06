@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.listimage{
+    width: 910px;
+    float: left;
+}
+.listimage h2{
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    border-bottom: 1px dashed #999;
+    padding: 0 0 15px 0;
+    font-size: 30px;
+    font-weight: normal;
+}
+.listimage figure{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 4px;
+    margin: 15px 5px 15px 0;
+}
+.listimage figcaption{
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    color: #666;
+    padding: 5px 0 10px 0;
+}

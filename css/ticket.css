@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+#container .ticket{
+    width: 910px;
+    color: #666;
+    float: left;
+    font-size: 20px;
+}
+.ticket h2{
+     height: 40px;
+     line-height: 40px;
+     border-bottom: 1px dashed #999;
+     padding: 0 0 15px 0;
+     font-size: 30px;
+     font-weight: normal;
+ }
+.reservation p{
+    line-height: 3;
+}
+.reservation input{
+    width: 250px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    color: #666666;
+    padding: 5px;
+    margin:  0 0 0 16px;
+    font-size: 18px;
+}
+.tickettype{
+    margin: 20px 0 10px 0;
+}
+.tickettype mark{
+    color: #fff;
+    background-color: #458b00;
+    padding: 5px 8px;
+    border-radius: 4px;
+    margin: 0 10px 0 16px;
+}
+.form.left{
+    width: 43%;
+    display: inline-block;
+}
+.form.right {
+    width: 43%;
+    display: inline-block;
+}
+.form.button {
+    width: 9%;
+    display: inline-block;
+}
+.reservation .submit{
+    display: block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #f60;
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+}
+/*end*/
+.newticket{
+    margin: 20px 0 10px 0;
+}
+.newticket ul{
+    margin: 20px 0 10px 0;
+}
+.newticket ul li{
+    color: #666;
+    margin: 10px 0 10px 0;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+.newticket ul li:nth-child(2){
+    background-color: #458b00;
+    color: #fff;
+    border-radius: 4px;
+}
+.newticket table{
+    margin: 20px 0 0 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+.newticket th{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;;
+}
+.newticket td{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;;
+ }
+.price{
+    color: #f60;
+}
+.reserve {
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f60;
+}
+.more{
+    color: #666;
+}

@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/*通用样式表*/
+
+body,h1,h2,ul,p,figure{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei UI', 'Microsoft YaHei', SimHei, 宋体, simsun, sans-serif;
+}
+ul{
+    list-style: outside none none;
+}
+a{
+    text-decoration: none;
+}
+/* end */
+#top{
+    width: 100%;
+    min-width: 1440px;
+    height: 80px;
+    background-color: #333;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 9999;
+}
+#top .center{
+    width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+
+}
+.logo{
+    width: 240px;
+    height: 80px;
+    background-image: url("../img/logo.png");
+    text-indent: -9999px;
+    float: left;
+}
+.link{
+    width: 750px;
+    height: 80px;
+    line-height: 80px;
+    float: right;
+}
+.link li{
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    float: left;
+}
+.link a{
+    display: block;
+    color: rgb(238, 238, 238);
+}
+.link a:hover{
+    background-color:#000000;
+}
+.none{
+    display: none;
+}
+
+/* end*/
+
+#headline{
+    width: 100%;
+    min-width: 1440px;
+    height: 300px;
+    background:linear-gradient(to right bottom,rgba(0,0,0,0.5),rgba(0,0,0,0)),url(../img/headline.jpg) no-repeat center;
+    position: relative;
+    letter-spacing: 1px;
+    color: lemonchiffon;
+}
+#headline .center{
+    width: 1263px;
+    height: 300px;
+    margin: 0 auto;
+}
+#headline hgroup{
+    padding: 100px 0 0 50px;
+}
+#headline h2{
+    font-size: 40px;
+}
+#headline h3{
+    font-size: 28px;
+}
+
+/*end*/
+
+#container {
+    width: 1440px;
+    margin: 30px auto;
+}
+
+#container .sidebar{
+    width: 390px;
+    float: right;
+}
+.sidebox{
+    border: 1px solid #eee;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+.sidebox h2{
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+    background-color: #cccccc;
+    color: #818181;
+    text-align: left;
+}
+.tag{
+    padding: 10px 0;
+}
+.tag ul li{
+    border-radius: 3px;
+    display: inline-block;
+    margin: 2px 6px;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #dddddd;
+    text-align: left;
+    text-indent: 10px;
+}
+.tag ul li a{
+    color: #999999;
+}
+.tag li:hover {
+    color: #FFFFFF;
+    background-color: #458b00;
+}
+.hot-figure{
+    padding: 6px 2px;
+}
+.hot-figure figure{
+    color: rgb(102, 102, 102);
+    display: inline-block;
+    padding: 6px;
+}
+.box{
+    padding: 10px 0;
+}
+.box a{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin: 3px 5px;
+    text-align: left;
+    text-indent: 40px;
+    color: #999;
+    border-radius: 4px;
+}
+
+.trea1{
+    background: #eee url(../img/trea1.png) no-repeat 10px center;
+}
+.trea2{
+    background: #eeeeee url(../img/trea2.png) no-repeat 10px center;
+}
+.trea3{
+    background: #eeeeee url(../img/trea3.png) no-repeat 10px center;
+}
+.trea4{
+    background: #eeeeee url(../img/trea4.png) no-repeat 10px center;
+}
+
+/*end*/
+
+#footer{
+    background-color: #222;
+    height: 360px;
+    clear: both;
+    position: relative;
+    top: 10px;
+}
+.bottom-top{
+    width: 1500px;
+    height: 280px;
+    text-align: center;
+    margin: 0 auto;
+}
+.block{
+    width: 410px;
+    height: 280px;
+    display: inline-block;
+    text-align: left;
+    color: #777;
+    vertical-align: top;
+}
+.block h2{
+    font-size: 24px;
+    font-weight: normal;
+    color: #928787;
+    padding: 15px 0;
+    text-indent: 6px;
+}
+.block hr{
+    width: 98%;
+    border: 1px dashed #333;
+}
+.block ul a{
+    font-size: 18px;
+    color: #777;
+    text-indent: 10px;
+    line-height: 2;
+}
+.bottom{
+    height: 90px;
+    line-height: 80px;
+    text-align: center;
+    color: #777777;
+    background-color: #000000;
+    border-top: 1px solid #444;
+}
+
+/*end*/
+.more{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+}
