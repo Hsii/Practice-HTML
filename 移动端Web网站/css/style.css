@@ -1,0 +1,397 @@
+﻿@charset "UTF-8";
+
+/*通用样式表*/
+html{
+    font-size: 625%;
+}
+body,h1,h2,h3,h4,ul,ol,form,p,figcaption,figure,fieldset{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei UI', 'Microsoft YaHei', SimHei, 宋体, simsun, sans-serif;
+    font-size: 0.16rem;
+}
+ul, ol {
+    list-style: outside none none;
+}
+a {
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+div,figcaption,figure{
+    box-sizing: border-box;
+}
+.none {
+    display: none;
+}
+/*end*/
+
+#top{
+    width: 100%;
+    height: .45rem;
+    background-color: #333;
+    font-size: 0.16rem;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+#top .link{
+    height: .45rem;
+    line-height: .45rem;
+    color: #eeeeee;
+}
+#top .link li{
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+#top .link li a{
+    display: block;
+    color: #eee;
+}
+#top .link a:hover,
+#top .active a{
+    background-color: #000;
+}
+
+/*end*/
+
+#midden{
+    max-width: 6.4rem;
+    margin: 0 auto;
+    padding: .45rem 0 0 0;
+    position: relative;
+}
+#midden hgroup{
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    color: #eee;
+}
+#midden h2{
+    font-size: .18rem;
+}
+#midden h3{
+    font-size: .1rem;
+}
+
+/*end*/
+
+#search{
+    max-width: 6.4rem;
+    height: .43rem;
+    background-color: #ddd;
+    margin: 0 auto;
+    padding: .05rem 0 .05rem 0;
+    position: relative;
+}
+#search .search{
+    width: 95%;
+    height: .3rem;
+    border: none;
+    border-radius: .06rem;
+    outline: none;
+    background-color: #FFFFFF;
+    display: block;
+    margin: .0001rem  auto;
+    font-size: .14rem;
+    padding: .027rem;
+}
+#search .button{
+    width: .5rem;
+    height: .35rem;
+    display: block;
+    color: #666;
+    background-color: #eee;
+    border: none;
+    border-top-right-radius: .06rem;
+    border-bottom-right-radius: .06rem;
+    position: absolute;
+    font-size: .17rem;
+    top: .045rem;
+    right: 2%;
+}
+
+/*end*/
+#content{
+    max-width: 6.4rem;
+    margin:  .1rem auto 0 auto;
+}
+#content h2{
+    text-align: center;
+    color: #666;
+    font-size: .25rem;
+}
+#content h3{
+    text-align: center;
+    color: #666;
+    font-size: .15rem;
+    padding: .05rem 0;
+}
+#content figure{
+    width: 50%;
+    float: left;
+    background-color: #eeeeee;
+    padding: 0 0 .15rem 0;
+}
+#content figure img {
+    border-radius: .05rem;
+    padding: .02rem;
+}
+#content figure figcaption{
+    color: #666666;
+    font-size: .16rem;
+    padding: 0 .05rem;
+}
+#content figure figcaption h4{
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#content figure figcaption p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#content figure .info{
+    padding: .1rem 0 0 0;
+    font-size: .16rem;
+}
+#content figure .sat {
+    position: relative;
+    float: right;
+    right: .05rem;
+    font-style: normal;
+}
+#content figure .price{
+    color: #f60;
+    letter-spacing: .001rem;
+}
+#content .clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+/*end*/
+.list{
+    font-size: .16rem;
+    color: #666;
+    max-width: 6.4rem;
+    margin: .15rem auto;
+    padding: 0 .1rem;
+}
+.list h2{
+    font-size: .2rem;
+    border-bottom: .01rem dashed #999;
+    padding: 0 0 .2rem 0;
+}
+.list p{
+    line-height: 2;
+    margin: .2rem 0;
+}
+.list address{
+    font-style: normal;
+    line-height: .3rem;
+    margin: .2rem 0;
+}
+/*end*/
+.list mark{
+    color: #fff;
+    background-color: #458b00;
+    padding: .05rem .08rem;
+    border-radius: .04rem;
+    margin: 0 .15rem 0 .15rem;
+}
+.list fieldset{
+    border: none;
+}
+.list .form p{
+    margin: .1rem 0;
+}
+.list .form label{
+    display: block;
+    margin: 0 0 .05rem 0;
+}
+.list .form input{
+    font-size: .15rem;
+    width: 97%;
+    height: .2rem;
+    border: .01rem solid #ccc;
+    border-radius: .04rem;
+    background-color: #fff;
+    padding: .05rem;
+    color: #666;
+}
+.list .form .submit{
+    width: 30%;
+    border-radius: .04rem;
+    background-color: #f60;
+    color: #fff;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    padding: .1rem;
+    margin: 0 auto;
+    display: block;
+}
+.list .newticket,
+.list .newticket ul{
+    margin: .2rem 0 0 0;
+}
+.list .newticket li{
+    display: inline-block;
+    padding: .05rem .1rem;
+}
+.list .newticket ul li:nth-child{
+    padding-left: 0;
+}
+.list .newticket ul li:nth-child(2){
+    background-color: #458b00;
+    color: #fff;
+    border-radius: .04rem;
+}
+.list .newticket table{
+    margin: .2rem 0 0 0;
+    width: 100%;
+    border: .01rem solid #ddd;
+    border-collapse: collapse;
+}
+.list .newticket th {
+    height: .4rem;
+    line-height: .4rem;
+    border-bottom: .01rem solid #ddd;
+}
+.list .newticket td {
+    padding: .15rem 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.list .newticket .price,
+.list .newticket .reserve{
+    color: #f60;
+}
+.list .newticket .reserve{
+    border-radius: .04rem;
+    background-color: #f60;
+    color: #fff;
+    text-align: center;
+    padding: .05rem .08rem;
+}
+.list .newticket .more2{
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    color: #666;
+}
+/*end*/
+.information figure {
+    margin: 0.15rem 0px 0px;
+    position: relative;
+}
+.information figure figcaption {
+    width: 48%;
+    float: right;
+}
+.information figure img {
+    width: 50%;
+    float: left;
+}
+
+.title{
+    border: none;
+    padding: 0 0 .05rem 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.small_title {
+    font-weight: normal;
+    padding: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.information .price {
+    color: #f60;
+    position: absolute;
+    bottom: 0;
+}
+.information .price strong {
+    font-size: 0.26rem;
+}
+.information figure::after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0px;
+    visibility: hidden;
+}
+/*end*/
+
+#footer{
+    max-width: 6.4rem;
+    background-color: #222;
+    margin: 0 auto;
+    color: #777;
+    text-align: center;
+    padding: .1rem 0;
+    font-size: .16rem;
+}
+#footer .top{
+    padding:  0 0 .05rem 0;
+}
+/*end*/
+
+/*媒体查询，小于480px*/
+@media (max-width: 480px) {
+	#tour h2,.information .price strong {
+		font-size: .20rem;
+	}
+	#tour h3, #tour figcaption, #tour .info, .list {
+		font-size: .14rem;
+	}
+	#footer {
+		font-size: .12rem;
+	}
+	#headline h2 {
+		font-size: .18rem;
+	}
+	#headline h3 {
+		font-size: .12rem;
+	}
+	.list h2 {
+		font-size: .17rem;
+	}
+	.min {
+		display: none;
+	}
+}
+/*媒体查询，大于480px小于640px*/
+@media (min-width: 480px) and (max-width: 640px) {
+	#tour h2,.information .price strong {
+		font-size: .26rem;
+	}
+	#tour h3, #footer, #tour figcaption, #tour .info, .list {
+		font-size: .16rem;
+	}
+	#headline h2 {
+		font-size: .22rem;
+	}
+	#headline h3 {
+		font-size: .14rem;
+	}	
+	.list h2 {
+		font-size: .2rem;
+	}
+}
